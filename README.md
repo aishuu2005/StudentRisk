@@ -2,6 +2,13 @@ Student Engagement Risk Analyzer
 
 Early Intervention System for Academic Success
 
+Team Details
+
+Team Name: TrinityX
+Team Members:
+• Aishwarya S – 23bca122@caias.in
+• Tejaswini Purushottam Kumbhar – 23bca047@caias.in
+
 Overview
 
 This project delivers a practical solution to help institutions identify students who may be at risk of low academic engagement. The system uses key performance indicators to generate a risk score and presents the results through a clean and interactive dashboard. It enables faculty to take proactive steps and provide timely support.
@@ -29,6 +36,27 @@ Risk class and insights displayed in dashboard
 Machine Learning Artifacts:
 • risk_model.pkl
 • scaler.pkl
+
+Instructions to Run the Project
+1. Clone the repository
+git clone https://github.com/your-repo/student-risk-analyzer.git
+cd student-risk-analyzer
+
+2. Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate     # for Windows
+
+3. Install dependencies
+pip install -r requirements.txt
+
+4. Run the Streamlit Dashboard
+cd streamlit_app
+streamlit run app.py
+
+5. View in browser
+Streamlit will display a URL like:
+http://localhost:8501
+Open it to interact with the dashboard.
 
 Tech Stack
 | Category              | Tools                       |
